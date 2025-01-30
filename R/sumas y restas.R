@@ -1,9 +1,8 @@
 suma <- function(x,y) {
-  c=x+y
-  print("La suma de {x} y {y} es: {c}")
+  return(x+y)
 }
 
-restar <- function(x,y) {
-  c=x-y
-  print("La suma de {x} y {y} es: {c}")
+resta <- function(x,y) {
+  return(x-y)
 }
+
